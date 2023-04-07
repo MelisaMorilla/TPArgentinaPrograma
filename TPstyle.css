@@ -1,0 +1,154 @@
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+    
+.contenedor{
+    background-color:#adf5b2;
+    padding-bottom: 60px;
+}
+.header{
+    padding-top: 20px;
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.nav-enlace{
+    
+    display:inline-block; 
+    background: #3b8952;
+    color:blanchedalmond;
+    padding:10px 30px;
+    text-decoration: none;
+
+}
+.nav-enlace:hover{
+    background:#0f684b;
+    
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    background: #03484c;
+    padding:10px;
+}
+.menu{
+    color: rgb(6, 14, 10);
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+
+.presentacion{
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.informacion{
+    text-align: center;
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+media query para establecer que cdo tamaño sea 600px o menor va a ser modificado
+@media (max-width:600px) {
+    nav{
+        flex-direction: column;
+        }
+    .nav-enlace{
+        margin: 10px 0;
+    }    */ 
+}
+.redes{
+    min-width: 700px;
+    display:flex;
+    justify-content: center;
+   
+  }
+
+  .redes a{
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color:black;
+   
+  }
+  .container{
+    text-align: center;
+   
+  }
+  .btn{
+    background-color: aqua;
+    text-align: center;
+    width: 300px;
+    height: 80px;
+    border-bottom: #0f684b;
+  }
+  .form.registro{
+    text-align: center;
+    width: 400px;
+    background: #03484c;
+    padding:30px;
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: calibri;
+  }
+  .form.registro h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .controls{
+    width: 100%;
+    background: #0f684b;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: calibri;
+    font-size: 18px;
+    border: 1px solid #adf5b2
+    
+    
+  }
+  .form.registro .botons{
+    width: 100%;
+    background:#3b8952;
+    border: none;
+    padding:12px;
+    color:white;
+    margin:16px 0;
+    font-size: 16px;
+  }
+  /*.fondo{
+    width: 800px;
+    height: 200px;
+  }
+  */
