@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(2, 0, 10);
+   
+
+}
+    
+.contenedor{
+      background-color: #62f5b1;  
+      padding-bottom: 60px;
+}
+.header{
+    padding-top: 20px;
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.nav-enlace{
+    
+    display:inline-block; 
+    background: #3b8952;
+    color:blanchedalmond;
+    padding:10px 30px;
+    text-decoration: none;
+
+}
+.nav-enlace:hover{
+    background:#0f684b;
+    
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    background: #03484c;
+    padding:10px;
+}
+.menu{
+    color: rgb(6, 14, 10);
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+
+.presentacion{
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.informacion{
+    text-align: center;
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+media query para establecer que cdo tamaÃ±o sea 600px o menor va a ser modificado
+@media (max-width:600px) {
+    nav{
+        flex-direction: column;
+        }
+    .nav-enlace{
+        margin: 10px 0;
+    }    */ 
+}
+.redes{
+    min-width: 700px;
+    display:flex;
+    justify-content: center;
+   
+  }
+
+  .redes a{
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color:black;
+   
+  }
+  .container{
+    text-align: center;
+   
+  }
+  .btn{
+    background-color: #CEF28F;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    border-bottom: black;
+    border-radius: 30px;
+    border: 1px solid #adf5b2
+
+    
+  }
+  .form.registro{
+    text-align: center;
+    width: 400px;
+    background: #CEF28F;
+    padding:30px;
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: calibri;
+  }
+  .form.registro h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .controls{
+    
+    width: 100%;
+    background: #CEF28F;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 16px;
+    font-family: calibri;
+    font-size: 18px;
+    border: 1px solid #adf5b2
+  }
+  .controls-mensaje{
+    width: 100%;
+    height: 150px;
+    background: #CEF28F;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 16px;
+    font-family: calibri;
+    font-size: 18px;
+    border: 1px solid #adf5b2
+  }
+ 
+  .btn.btn-primary:hover{
+    background:#76c779;
+   
+  }
+
+  .form.registro .botons{
+    width: 100%;
+    background:#3b8952;
+    border: none;
+    padding:12px;
+    color:white;
+    margin:16px 0;
+    font-size: 16px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  #step-2 {
+    display: none;
+  }
+  
+  #summary {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+ footer{
+    text-align: center;
+    
+    background: #CEF28F;
+    
+  
+    
+    
+    font-family: calibri;
+
+
+  }
+  .Plato{
+    text-align: center;
+    
+  }
+  .precio{
+    background-color: #008CBA;
+    border: none;
+  color: white;
+  padding: 05px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 25px;
+  }
+  .col{
+    color:rgb(78, 17, 193);
+    font-family: 'Fira Mono', monospace;
+    font-size: 20px;
+  }
+  
+  .quienes{
+    font-family: 'DynaPuff', cursive;
+    color: rgb(155, 133, 10);
+    
+  }
+  .nombres{
+    color: rgb(255, 0, 106);
+  }
+  .somos{
+    font-family: 'Allura', cursive;
+    font-size: 40px;
+    font-weight:bold;
+  }
+  .bienvenidos{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+    
+  }
+  .siempre{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+  }
+  .menu{
+    font-family: 'Press Start 2P', cursive;
+  }
+  .Viandas{
+    font-family: 'Bangers', cursive;
+    font-size: 35px;
+
+  }
+  .im{
+    font-family: 'Rock Salt', cursive;
+    
+  }
+  .img{
+    
+    display: flex;
+    justify-content: center;
+    
+  }
+    
+  
+  
