@@ -1,0 +1,384 @@
+* {
+	overflow: hidden;
+	margin: 0px;
+	border: none;
+	padding: 0px;
+
+	background: transparent;
+}
+
+html, body {
+	display: block;
+}
+
+html {
+	position: static;
+   font-family: 'Roboto', sans-serif;
+   font-size: 16pt;
+	color: black;
+}
+
+body {
+	display: flex;
+		flex-flow: column nowrap;
+		justify-content: space-between;
+		align-items: stretch;
+		align-content: stretch;
+
+	position: absolute;
+		width: auto; left: 0px; right: 0px;
+		height: auto; top: 0px; bottom: 0px;
+		
+	background-color: #adf5b2;
+	background-image: url('./imagenes/viandas.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+
+	
+}
+	body>* {
+		display: block;
+		flex: 1 1 auto;
+
+		width: auto; height: auto;
+		overflow: auto;
+
+		margin: 0px; border: none; padding: 12px;
+
+		background-color: #adf5b2D0;
+		background-color: #adf5b2DF;
+	}
+
+	body header,
+	body footer
+	{
+		flex: 0 0 auto;
+	}
+
+	body div {
+		overflow: auto;
+		scroll: auto;
+	}
+	
+	body aside.scripts {
+		display: none;
+	}
+
+header {
+	display: flex;
+		flex-flow: row nowrap;
+		justify-content: flex-start;
+		align-items: center;
+		align-content: center;
+}
+header img {
+	flex: 0 0 auto;
+	align-self: flex-end;
+}
+header nav {
+	flex: 1 1 auto;
+	display:flex;
+		justify-content: space-between;
+		align-items: center;
+		align-content: stretch;
+
+	margin: 10px 0px;
+	background: #03484c;
+	padding: 5px;
+
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+	font-size: 80%;
+	font-style: oblique;
+}
+
+header nav a {
+	flex: 1 1 0;
+	align-self: stretch;
+
+	display:flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		padding: 3px 2px;
+		text-align: center;
+	
+	margin: 5px; padding: 6px;
+
+	background: #3b8952;
+	color: blanchedalmond;
+	
+	text-decoration: none;
+}
+	header nav a:hover {
+		background: #0f684b;
+	}
+	
+
+div.contenedor h1,
+div.contenedor h2 {
+	text-align: center;
+}
+
+div.contenedor h1 {
+	font-size: 125%;
+	font-style: bold;
+}
+div.contenedor h2 {
+	font-size: 120%;
+}
+div.contenedor section {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+div.contenedor p {
+	margin: 1em 0px;
+	text-align: justify;
+}
+
+
+section#inicio {
+	font-family: 'Z003', cursive;
+	font-size: 150%;
+	text-align: center;
+}
+section#inicio h1 {
+	font-size: 48pt;
+	font-style: bold;
+}
+section#inicio p{
+	text-align: center;
+}
+
+h1{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 60pt;
+	color:#03484c; 
+
+}
+
+h2{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 30pt;
+	color:#3b8952;
+}
+
+.im{
+  color: #3b8952;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;	
+}
+p{
+    font-family: 'Allura', cursive;
+    font-size: 25px;
+    font-weight:bold;
+	text-align: center;
+
+  }
+
+section#servicios div.container {
+	border:1px solid rgb(234, 91, 8);
+}	
+section#servicios div.row {
+	background-color: #DAF2DB;
+}
+section#servicios div.col {
+	border:1px solid black;
+}
+section#servicios div.col ul {
+	padding-left: 1em;
+	list-style-type: none;
+	list-style-type: '✓ ';
+	list-style-position: inside;
+}
+section#servicios p {
+	font-style: italic;
+	text-align: center;
+}
+
+	section#menu div.menu {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+
+		margin: -20px;
+		padding: 10px;
+		border: none;
+
+		font-family: 'TimesNewRoman', 'Liberation Serif', serif;
+		font-size: 80%;
+	}
+
+	section#menu div.menu div {
+		flex: auto;
+
+		margin: 10px;
+		border: 1px solid; border-radius: 1em;
+		padding: 10px 0.75em;
+
+		background: #DAF2DB;
+	}
+
+	section#menu div.menu div h1 {
+		font-style: italic;
+		font-size: 1.25em;
+		text-decoration: underline;
+		text-align: left;
+	}
+
+	section#menu div.menu div ul {
+		list-style: none;
+	}
+
+
+section#contacto div.row {
+	background-color:#DAF2DB;
+}
+section#contacto div.col {
+	border:1px solid black;
+}
+
+
+
+.col{
+	color:#03484c;
+    font-family: 'Fira Mono', monospace;
+    font-size: 20px;
+  }
+
+.quienes{
+    font-family: 'DynaPuff', cursive;
+    color:#03484c;
+}
+
+  .img{
+    
+    display: flex;
+    justify-content: center;}
+.Plato{
+	text-align: center;
+}
+.comida{
+	border:1px solid rgb(234, 91, 8);
+}	
+.row {
+	background-color: #DAF2DB;
+}
+.col {
+	border:1px solid black;
+}
+.plato {
+	font-style: italic;
+	text-align: center;
+	font-size: 80%;
+}
+.container{
+    text-align: center;
+   
+  }
+  .btn{
+	background:#76c779;
+    text-align: center;
+	margin: 10%;
+    padding: 15px;
+    width: 300px;
+    height: 50px;
+    border-bottom: black;
+    border-radius: 30px;
+    border: 1px solid #adf5b2
+	    
+  }
+
+  .controls{    
+    width: 80%;
+	background:#76c779;
+	margin: 5%;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 16px;
+    font-family: calibri;
+    font-size: 18px;
+    border: 1px solid #adf5b2
+  }
+  .controls-mensaje{
+    width: 80%;
+    height: 150px;
+	background:#76c779;
+	margin: 5%;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 16px;
+    font-family: calibri;
+    font-size: 18px;
+    border: 1px solid #adf5b2
+  }
+ 
+  .btn.btn-primary:hover{
+   
+	background: #CEF28F;
+  }
+
+ 
+  
+  #step-2 {
+    display: none;
+  }
+  
+  #summary {
+    border: 1px solid #76c779;
+    padding: 10px;
+  }
+  footer {
+	display:block;
+	margin: 0px;
+	border-top: 1px solid;
+	padding: 5px;	
+	font-family: 'TimesNewRoman', 'Liberation Serif', serif;
+	font-size: 70%;
+	
+}
+
+footer section#grupo {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+footer section#grupo aside {
+	flex: 0 1 auto;
+}
+	footer section#grupo aside img {
+	  width: 100%;
+	  height: 100%;
+	}
+
+footer section#grupo div {
+  flex: 1 0 auto;
+  align-self: flex-end;
+  width: 80%;
+  margin: 0px;
+  padding: 2px;
+}
+	footer section#grupo div *{
+		text-align: center;
+		margin: 2px;
+	}
+	footer section#grupo div h1 { font-size: 1.30em; text-decoration: underline; }
+	footer section#grupo div h2 { font-size: 1.20em; }
+
+	footer section#grupo div small {
+		display: block;
+		font-family: sans-serif;
+		font-size: 0.75em;
+		font-style: bold;
+	}
+  
+  .redes a{
+    text-decoration: none;
+    font-size: 28px;
+    width: 40px;
+    height: 40px;    
+    color:black;   
+  }
