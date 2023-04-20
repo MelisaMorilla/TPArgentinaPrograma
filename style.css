@@ -59,7 +59,7 @@ body {
 
 	body div {
 		overflow: auto;
-		scroll: auto;
+		scroll-behavior: auto;
 	}
 	
 	body aside.scripts {
@@ -207,6 +207,7 @@ section#servicios p {
 
 		font-family: 'TimesNewRoman', 'Liberation Serif', serif;
 		font-size: 80%;
+		
 	}
 
 	section#menu div.menu div {
@@ -215,6 +216,7 @@ section#servicios p {
 		margin: 10px;
 		border: 1px solid; border-radius: 1em;
 		padding: 10px 0.75em;
+
 
 		background: #DAF2DB;
 	}
@@ -244,11 +246,16 @@ section#contacto div.col {
 	color:#03484c;
     font-family: 'Fira Mono', monospace;
     font-size: 20px;
+	text-align: center;
   }
 
 .quienes{
     font-family: 'DynaPuff', cursive;
     color:#03484c;
+}
+.contamos{
+	text-align: center;
+
 }
 
   .img{
@@ -318,7 +325,8 @@ section#contacto div.col {
 	background: #CEF28F;
   }
 
- 
+  
+  
   
   #step-2 {
     display: none;
@@ -382,3 +390,7 @@ footer section#grupo div {
     height: 40px;    
     color:black;   
   }
+  .pdf{
+	text-align: center;
+  }
+	
